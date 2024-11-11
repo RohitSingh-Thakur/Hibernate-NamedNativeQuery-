@@ -19,19 +19,19 @@ public class ClientMain {
 
 		try {
 
-			// Employee emp1 = new Employee("Rohit Singh", 90.000);
-			// Employee emp2 = new Employee("Pankaj Mishra", 30.000);
-			// Employee emp3 = new Employee("Roshan Thakur", 50.000);
-			// Employee emp4 = new Employee("Manoj Saru", 70.000);
-			// Employee emp5 = new Employee("Ajay Dalla", 10.000);
+			Employee emp1 = new Employee("Rohit Singh", 90.000);
+			Employee emp2 = new Employee("Pankaj Mishra", 30.000);
+			Employee emp3 = new Employee("Roshan Thakur", 50.000);
+			Employee emp4 = new Employee("Manoj Saru", 70.000);
+			Employee emp5 = new Employee("Ajay Dalla", 10.000);
 
-			// session.save(emp1);
-			// session.save(emp2);
-			// session.save(emp3);
-			// session.save(emp4);
-			// session.save(emp5);
+			session.save(emp1);
+			session.save(emp2);
+			session.save(emp3);
+			session.save(emp4);
+			session.save(emp5);
 
-			// transaction.commit();
+			transaction.commit();
 
 			// Call NamedNativeQuery
 			Query query = session.getNamedQuery("findEmployeeBySalaryAbove");

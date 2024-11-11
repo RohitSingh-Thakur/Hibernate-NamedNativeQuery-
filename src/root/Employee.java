@@ -11,6 +11,8 @@ import javax.persistence.NamedNativeQuery;
 		name = "findEmployeeBySalaryAbove", 
 		query = "SELECT * FROM Employee WHERE empSalary > :salary", 
 		resultClass = Employee.class)
+
+
 public class Employee {
 
 	@Id
