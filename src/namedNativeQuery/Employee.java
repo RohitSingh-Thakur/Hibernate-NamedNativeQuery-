@@ -1,4 +1,4 @@
-package root;
+package namedNativeQuery;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

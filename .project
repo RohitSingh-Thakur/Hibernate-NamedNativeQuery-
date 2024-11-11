@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Hibernate(@NamedNativeQuery)</name>
+	<name>Hibernate(@NamedNativeQuery &amp; @NamedNativeQueries )</name>
 	<comment></comment>
 	<projects>
 	</projects>

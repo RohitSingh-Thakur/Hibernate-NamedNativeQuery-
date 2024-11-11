@@ -1,4 +1,4 @@
-package root;
+package namedNativeQuery;
 
 import java.util.List;
 
